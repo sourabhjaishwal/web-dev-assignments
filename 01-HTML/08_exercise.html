@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form with Dropdown Menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Create a Form with a Dropdown Menu -->
+      <form action="#" method="post">
+        <h2>Book My Shows</h2>
+        <input
+          type="text"
+          username="name"
+          placeholder="Enter your name"
+          required
+        />
+        <br />
+        <br />
+        <input type="text" username="age" placeholder="Enter your age" />
+        <br />
+        <br />
+        <label for="category">Select a category:</label>
+        <br />
+        <br />
+        <select name="category" id="category">
+          <option value="comedy">Comedy</option>
+          <option value="horror">Horror</option>
+          <option value="sci-fi">Sci-fi</option>
+          <option value="drama">Drama</option>
+          <option value="action">Action</option>
+        </select>
+        <br />
+        <br />
+        <label for="description"
+          >Note: Your booking will be done as random seat!</label
+        >
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
