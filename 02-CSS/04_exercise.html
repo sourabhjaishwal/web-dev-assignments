@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styling Text</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap");
+
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        padding: 100px;
+        height: 100vh;
+        overflow-y: hidden;
+        font-family: "Parkinsans", sans-serif;
+      }
+      .container {
+        text-align: center;
+        padding: 60px;
+        border: 3px solid rgb(19, 4, 4);
+        border-radius: 10px;
+        background-color: rgb(255, 247, 238);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .container h1 {
+        font-size: 45px;
+        font-weight: bold;
+        color: rgb(4, 1, 6);
+      }
+
+      .container h2 {
+        font-size: 36px;
+        font-weight: normal;
+        color: rgb(4, 1, 6);
+        margin-bottom: 20px;
+        text-decoration: underline;
+      }
+
+      .container p {
+        font-size: 16px;
+        color: rgb(10, 1, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Styling Text with Font Properties -->
+    <div class="container">
+      <h1>Hello Everyone</h1>
+      <h2>Welcome to B2B SAAS based Website</h2>
+      <p>
+        "We provide innovative, cloud-based software solutions designed to
+        streamline business operations, enhance productivity, and drive growth.
+        Our B2B SaaS platform offers customizable tools for businesses to
+        automate processes, manage data, and collaborate seamlessly, all within
+        a secure and scalable environment. Whether you're a startup or an
+        enterprise, our solutions empower your business to scale efficiently and
+        stay ahead of the competition."
+      </p>
+    </div>
+  </body>
+</html>
