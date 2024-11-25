@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Circle with Border Radius</title>
     <style>
-        
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow-y: hidden;
+      }
+      .circle {
+        width: 200px;
+        height: 200px;
+        border: 1px solid red;
+        border-radius: 50%;
+        text-align: center;
+        text-wrap: wrap;
+        position: relative;
+        background-color: rgb(204, 255, 146);
+      }
+      p {
+        position: absolute;
+        top: 50px;
+        font-size: 16px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Create a Circle Using Border Radius -->
-     <div class="container">
-        <div class="circle">
-            <p>A circle is created using a border radius, with the text centered both vertically and horizontally.</p>
-        </div>
-     </div>
-</body>
+    <div class="container">
+      <div class="circle">
+        <p>
+          A circle is created using a border radius, with the text centered both
+          vertically and horizontally.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
