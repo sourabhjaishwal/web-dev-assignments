@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positions</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: hidden;
+        height: 100vh;
+      }
+      .parent-container {
+        display: flex;
+        justify-content: center;
+        border: 3px solid rgb(14, 8, 8);
+        padding: 20px;
+        position: relative;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+      }
+      .static-box {
+        background-color: rgb(27, 27, 144);
+      }
+      .relative-box {
+        background-color: rgb(255, 252, 62);
+        position: relative;
+        right: 80px;
+        bottom: -150px;
+      }
+      .absolute-box {
+        background-color: rgb(190, 5, 5);
+        position: absolute;
+        top: -130px;
+        left: -130px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Positions in CSS -->
+    <div class="parent-container">
+      <div class="box static-box"></div>
+      <div class="box relative-box"></div>
+      <div class="box absolute-box"></div>
+    </div>
+  </body>
+</html>
