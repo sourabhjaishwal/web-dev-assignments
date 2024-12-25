@@ -53,7 +53,7 @@ console.log(popularTeas);
 /*
 let topCities = ["Berlin", "Singapore", "New York"];
 let hardCopyCities = [...topCities];  // rest and spread operator
-// let hardCopyCities = topCities.slice();  // another method to create copy
+let hardCopyCities = topCities.slice();  // another method to create copy
 topCities.pop();
 console.log(topCities);
 console.log(hardCopyCities);
