@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Colored Button</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
     <!-- Create a Gradient Colored Button Using Tailwind CSS -->
-</body>
+    <div
+      class="flex justify-center items-center min-h-screen overflow-hidden bg-slate-100"
+    >
+      <button
+        type="button"
+        class="text-white font-bold font-mono px-12 py-5 rounded-full border-white border-8 bg-gradient-to-r from-blue-700 to-purple-700 shadow-lg shadow-blue-400 transition-all duration-300 hover:scale-125 hover:bg-gradient-to-r hover:from-purple-700 hover:to-blue-700 hover:shadow-purple-400"
+      >
+        Click Me!
+      </button>
+    </div>
+  </body>
 </html>
