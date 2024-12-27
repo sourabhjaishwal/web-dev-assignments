@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rotating Square Box</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
     <!-- Create a Rotating Square Box Using Tailwind CSS -->
-</body>
+    <div class="flex justify-center items-center overflow-hidden min-h-screen">
+      <div
+        class="bg-red-500 p-16 rounded-lg shadow-lg transition-all duration-700 hover:cursor-pointer hover:rotate-90 hover:scale-150 hover:bg-green-500"
+      ></div>
+    </div>
+  </body>
 </html>
