@@ -1,4 +1,4 @@
-// Challenges on Conditionals
+// Five Challenges on Conditionals
 
 // Checking if a number is greater than another number.
 /*
