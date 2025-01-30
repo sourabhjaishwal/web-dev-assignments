@@ -16,7 +16,7 @@ class Vehicle {
 class Car extends Vehicle {
   drive() {
     return `${this.make} : This is an inheritance example!`;
-  }
+  };
 }
 
 let myCar = new Car("Toyota", "Etios", 2021);
